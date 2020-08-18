@@ -4,7 +4,7 @@
   base = "gatsby/"
   publish = "gatsby/public"
   command = "npm run build"
-  environment = { PANTHEON_ENV = "live" }
+  environment = { PANTHEON_ENV = "dev" }
   functions = "gatsby/functions/dist"
 
 # dev environment settings
