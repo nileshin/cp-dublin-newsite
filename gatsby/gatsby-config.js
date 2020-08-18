@@ -87,6 +87,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
+        minimizeDeprecationNotice: true,
         includedRoutes: [
           `**/*/taxonomies`,
           `**/*/pages`,
